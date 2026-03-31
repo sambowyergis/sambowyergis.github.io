@@ -26,3 +26,7 @@ author:
 paginate: 0
 include: 
   - _pages
+favicon:
+  - rel: "shortcut icon"
+    type: "image/png"
+    href: "/assets/images/favicon.png"
