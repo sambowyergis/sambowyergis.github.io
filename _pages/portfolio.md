@@ -7,7 +7,7 @@ author_profile: true
 
 ## Moray Firth Offshore Wind — Spatial Conflict Analysis
 
-*University of St Andrews Dissertation, 2025–26*
+*University of St Andrews Dissertation, 2026–27*
 
 A GIS-based Multi-Criteria Evaluation of spatial conflicts between proposed 
 offshore wind development and existing maritime uses in the Moray Firth. 
