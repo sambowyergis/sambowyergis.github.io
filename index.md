@@ -1,40 +1,31 @@
 ---
-layout: single
-author_profile: true
+layout: splash
+header:
+  overlay_color: "#1a1a2e"
+  overlay_filter: 0.5
+  overlay_image: /assets/images/hero.jpg
+  caption: "Moray Firth, Scotland"
+excerpt: "GIS Analyst specialising in marine and offshore spatial planning."
+intro:
+  - excerpt: "Combining spatial data analysis with a practical maritime background to solve real-world planning problems."
+feature_row:
+  - image_path: /assets/images/norfolk_thumb.png
+    title: "Norfolk Wind Farm Suitability"
+    excerpt: "MCE-based spatial suitability analysis for offshore wind development in coastal Norfolk."
+    url: "/portfolio/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/moray_thumb.png
+    title: "Moray Firth Conflict Analysis"
+    excerpt: "GIS-based analysis of spatial conflicts between offshore wind and maritime uses."
+    url: "/portfolio/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
 ---
 
-I'm a GIS analyst and geographer specialising in marine and offshore spatial 
-planning. My work combines spatial data analysis, multi-criteria evaluation, 
-and a practical background in maritime operations.
+{% include feature_row id="intro" type="center" %}
 
-I'm currently completing my Geography BSc at the University of St Andrews, 
-where my dissertation applies GIS-based conflict analysis to offshore wind 
-development in the Moray Firth.
-
----
-
-## What I Do
-
-**Spatial Analysis** — Multi-criteria evaluation, weighted overlay, DBSCAN 
-clustering, and suitability modelling for real-world planning problems.
-
-**Marine & Offshore GIS** — Vessel traffic analysis, navigational constraint 
-mapping, and offshore renewable energy siting.
-
-**Technical Stack** — Python (geopandas, rasterio, shapely, scikit-learn, 
-matplotlib), QGIS, R.
-
----
-
-## Selected Projects
-
-**[Moray Firth Offshore Wind — Spatial Conflict Analysis](/portfolio/#moray-firth-offshore-wind--spatial-conflict-analysis)**  
-GIS-based MCE identifying low-conflict zones for offshore wind development.
-
-**[Coastal Norfolk Wind Farm — Spatial Suitability Analysis](/portfolio/#coastal-norfolk-wind-farm-spatial-suitability-analysis)**  
-Multi-criteria suitability modelling with interactive outputs.
-
----
+{% include feature_row %}
 
 *Currently seeking GIS analyst roles in marine and offshore environments — 
 UK and Canada.*
