@@ -3,8 +3,6 @@ layout: single
 author_profile: true
 ---
 
-## Welcome
-
 I'm a GIS analyst and geographer specialising in marine and offshore spatial 
 planning. My work combines spatial data analysis, multi-criteria evaluation, 
 and a practical background in maritime operations.
