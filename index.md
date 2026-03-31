@@ -4,7 +4,7 @@ header:
   overlay_color: "#1a1a2e"
   overlay_filter: 0.5
   overlay_image: /assets/images/hero.jpg
-  caption: "Moray Firth, Scotland"
+  caption: "Own Image"
 excerpt: "GIS Analyst specialising in marine and offshore spatial planning."
 intro:
   - excerpt: "Combining spatial data analysis with a practical maritime background to solve real-world planning problems."
