@@ -29,7 +29,7 @@ man made structures and landuses, weather patterns and more to determine
 the most suitable areas for wind farms.
 
 <iframe 
-  src="norfolk.clusters.interactive.html" 
+  src="/assets/maps/norfolk.clusters.interactive.html" 
   width="100%" 
   height="500px"
   frameborder="0">
