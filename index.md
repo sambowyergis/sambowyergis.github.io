@@ -38,3 +38,7 @@ Multi-criteria suitability modelling with interactive outputs.
 
 *Currently seeking GIS analyst roles in marine and offshore environments — 
 UK and Canada.*
+
+---
+
+[Download CV (PDF)](/assets/SamBowyer_CV.pdf){: .btn .btn--primary}
