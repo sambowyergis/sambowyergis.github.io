@@ -24,3 +24,5 @@ author:
 
 # Remove the recent posts from homepage
 paginate: 0
+include: 
+  - _pages
