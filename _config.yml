@@ -26,8 +26,5 @@ author:
 paginate: 0
 include: 
   - _pages
-favicon:
-  - rel: "shortcut icon"
-    type: "image/png"
-    href: "/assets/images/favicon.png"
+
 minimal_mistakes_skin: "dark"
