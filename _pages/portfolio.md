@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Moray Firth Offshore Wind — Spatial Conflict Analysis</strong></summary>
 
 *University of St Andrews Dissertation, 2026–27*
@@ -25,7 +25,7 @@ identifying low-conflict development zones.
 
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Coastal Norfolk Wind Farm — Spatial Suitability Analysis</strong></summary>
 
 *Spatial Analysis with GIS*
