@@ -24,6 +24,12 @@ feature_row:
 
 ---
 
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+---
+
 ## Get In Touch
 
 <form action="https://formspree.io/f/maqlbezp" method="POST">
@@ -44,12 +50,6 @@ feature_row:
   </div>
   <button type="submit" class="btn btn--primary">Send Message</button>
 </form>
-
----
-
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
 
 *Currently seeking GIS analyst roles in marine and offshore environments — 
 UK and Canada.*
