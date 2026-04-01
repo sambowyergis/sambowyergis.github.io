@@ -51,7 +51,7 @@ feature_row:
   <button type="submit" class="btn btn--primary">Send Message</button>
 </form>
 
-*Currently seeking GIS analyst roles in marine and offshore environments — 
+*Currently seeking GIS analyst roles, particularly in marine and offshore environments — 
 UK and Canada.*
 
 ---
