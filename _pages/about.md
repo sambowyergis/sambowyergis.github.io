@@ -12,11 +12,66 @@ maritime operations.
 
 ## Technical Skills
 
-I work primarily with Python (geopandas, rasterio, shapely, scikit-learn, 
-matplotlib) and QGIS for spatial analysis, alongside R for statistical 
-visualisation. My dissertation applies Multi-Criteria Evaluation and 
-DBSCAN clustering to map spatial conflicts between offshore wind development 
-and maritime uses in the Moray Firth.
+<div class="skills-section">
+
+  <div class="skill">
+    <span class="skill-label">QGIS</span>
+    <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span class="skill-label">Python (geopandas, rasterio, shapely)</span>
+    <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span class="skill-label">Spatial Analysis & MCE</span>
+    <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span class="skill-label">scikit-learn / DBSCAN</span>
+    <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span class="skill-label">R (ggplot2)</span>
+    <div class="skill-bar"><div class="skill-fill" style="width>: 70%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span class="skill-label">Remote Sensing</span>
+    <div class="skill-bar"><div class="skill-fill" style="width: 65%"></div></div>
+  </div>
+
+</div>
+
+<style>
+.skills-section {
+  margin: 1.5em 0;
+}
+.skill {
+  margin-bottom: 1em;
+}
+.skill-label {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+.skill-bar {
+  background: #e0e0e0;
+  border-radius: 8px;
+  height: 12px;
+  width: 100%;
+}
+.skill-fill {
+  background: #0077b6;
+  height: 12px;
+  border-radius: 8px;
+  transition: width 1s ease-in-out;
+}
+</style>
 
 ## Maritime Background
 
