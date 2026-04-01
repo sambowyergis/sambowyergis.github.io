@@ -3,5 +3,9 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Blog"
+    url: /blog/
+  - title: "Testimonials"
+    url: /testimonials/
   - title: "CV"
     url: /assets/SamBowyer_CV.pdf
