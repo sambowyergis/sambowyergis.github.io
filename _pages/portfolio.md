@@ -5,7 +5,8 @@ layout: single
 author_profile: true
 ---
 
-## Moray Firth Offshore Wind — Spatial Conflict Analysis
+<details>
+<summary><strong>Moray Firth Offshore Wind — Spatial Conflict Analysis</strong></summary>
 
 *University of St Andrews Dissertation, 2026–27*
 
@@ -20,7 +21,12 @@ identifying low-conflict development zones.
 
 *Interactive map and full write-up coming soon.*
 
-## Coastal Norfolk Wind Farm— Spatial Suitability Analysis
+</details>
+
+---
+
+<details>
+<summary><strong>Coastal Norfolk Wind Farm — Spatial Suitability Analysis</strong></summary>
 
 *Spatial Analysis with GIS*
 
@@ -39,3 +45,4 @@ the most suitable areas for wind farms.
 **Methods:** MCE weighted overlay, DBSCAN clustering, kernel density estimation  
 **Tools:** Python (geopandas, rasterio, scikit-learn, matplotlib), QGIS
 
+</details>
