@@ -21,6 +21,30 @@ feature_row:
     url: "/portfolio/"
     btn_label: "View Project"
     btn_class: "btn--primary"
+
+---
+
+## Get In Touch
+
+<form action="https://formspree.io/f/maqlbezp" method="POST">
+  <div style="margin-bottom: 1em;">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" required
+      style="width:100%; padding:0.5em; border:1px solid #ccc; border-radius:4px;">
+  </div>
+  <div style="margin-bottom: 1em;">
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required
+      style="width:100%; padding:0.5em; border:1px solid #ccc; border-radius:4px;">
+  </div>
+  <div style="margin-bottom: 1em;">
+    <label for="message">Message</label><br>
+    <textarea id="message" name="message" rows="5" required
+      style="width:100%; padding:0.5em; border:1px solid #ccc; border-radius:4px;"></textarea>
+  </div>
+  <button type="submit" class="btn btn--primary">Send Message</button>
+</form>
+
 ---
 
 {% include feature_row id="intro" type="center" %}
