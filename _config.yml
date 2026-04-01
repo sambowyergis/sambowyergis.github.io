@@ -3,7 +3,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-include-cache
 # Site settings
-title: "Sam Bowyer"
+title: "Home"
 name: "Sam Bowyer"
 description: "GIS Analyst | Marine & Offshore Spatial Planning"
 url: "https://sambowyergis.com"
