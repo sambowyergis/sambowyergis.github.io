@@ -8,12 +8,12 @@ author_profile: true
 <div class="testimonials">
 
 <blockquote class="testimonial">
-  <p>"Placeholder — ask a lecturer or SLR contact for a quote and add it here."</p>
+  <p>"Placeholder — placeholder."</p>
   <footer>— Name, Role, Organisation</footer>
 </blockquote>
 
 <blockquote class="testimonial">
-  <p>"Another testimonial can go here once you have a second one."</p>
+  <p>"Another testimonial."</p>
   <footer>— Name, Role, Organisation</footer>
 </blockquote>
 
@@ -21,10 +21,10 @@ author_profile: true
 
 <style>
 .testimonial {
-  border-left: 4px solid #0077b6;
+  border-left: 4px solid #7ec8e3;
   padding: 1em 1.5em;
   margin: 2em 0;
-  background: #f8f9fa;
+  background: rgba(255,255,255,0.05);
   border-radius: 0 8px 8px 0;
 }
 .testimonial p {
@@ -34,6 +34,6 @@ author_profile: true
 }
 .testimonial footer {
   font-weight: bold;
-  color: #555;
+  color: #aaa;
 }
 </style>
