@@ -13,7 +13,7 @@ url: "https://sambowyergis.com"
 author:
   name: "Sam Bowyer"
   bio: "Penultimate year Geography BSc at the University of St Andrews, specialising in GIS and marine spatial planning."
-  location: "Scotland, UK"
+  location: "St Andrews, Scotland"
   email: "sam@sambowyergis.com"
   links:
     - label: "LinkedIn"
@@ -22,6 +22,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sambowyergis"
+    - label: "School of Geography"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.st-andrews.ac.uk/geography-sustainable-development/"
 
 # Remove the recent posts from homepage
 paginate: 0
