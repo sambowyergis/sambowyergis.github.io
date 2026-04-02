@@ -12,9 +12,7 @@ maritime operations.
 
 ## Technical Skills
 
-<div class="skills-section">
-
-  <div class="skill">
+<div class="skill">
     <span class="skill-label">QGIS</span>
     <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
   </div>
@@ -36,7 +34,7 @@ maritime operations.
 
   <div class="skill">
     <span class="skill-label">R (ggplot2)</span>
-    <div class="skill-bar"><div class="skill-fill" style="width>: 70%"></div></div>
+    <div class="skill-bar"><div class="skill-fill" style="width: 70%"></div></div>
   </div>
 
   <div class="skill">
