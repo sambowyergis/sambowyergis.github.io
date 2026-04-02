@@ -31,6 +31,10 @@ feature_row:
 
 ---
 
+[Download CV (PDF)](/assets/SamBowyer_CV.pdf){: .btn .btn--primary}
+
+---
+
 ## Get In Touch
 
 <form action="https://formspree.io/f/maqlbezp" method="POST">
@@ -54,7 +58,3 @@ feature_row:
 
 *Currently seeking GIS analyst roles, particularly in marine and offshore environments — 
 UK and Canada.*
-
----
-
-[Download CV (PDF)](/assets/SamBowyer_CV.pdf){: .btn .btn--primary}
