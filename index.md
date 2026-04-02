@@ -29,6 +29,9 @@ feature_row:
 
 {% include feature_row %}
 
+*Currently seeking GIS analyst roles, particularly in marine and offshore environments — 
+UK and Canada.*
+
 ---
 
 [Download CV (PDF)](/assets/SamBowyer_CV.pdf){: .btn .btn--primary}
@@ -56,5 +59,3 @@ feature_row:
   <button type="submit" class="btn btn--primary">Send Message</button>
 </form>
 
-*Currently seeking GIS analyst roles, particularly in marine and offshore environments — 
-UK and Canada.*
