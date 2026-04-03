@@ -34,7 +34,7 @@ feature_row:
 
 ---
 
-[Download CV (PDF)](/assets/SamBowyer_CV.pdf){: .btn .btn--primary target="_blank"}
+[Download CV (PDF)](/assets/SamBowyer_CV.pdf){: .btn .btn--primary}
 
 ---
 
