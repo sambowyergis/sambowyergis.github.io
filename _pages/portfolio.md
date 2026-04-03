@@ -26,14 +26,44 @@ identifying low-conflict development zones.
 ---
 
 <details markdown="1">
-<summary><strong>Coastal Norfolk Wind Farm — Spatial Suitability Analysis</strong></summary>
+<summary><strong>East Anglia Onshore Wind Farm — Spatial Suitability Analysis</strong></summary>
 
-*Spatial Analysis with GIS*
+*GG3209 Spatial Analysis with GIS, University of St Andrews, December 2025*
 
-A GIS-based Multi-Criteria Evaluation of potentially wind farm development in 
-Northern coastal Norfolk. This evaluation considers natural topographical features, 
-man made structures and landuses, weather patterns and more to determine
-the most suitable areas for wind farms.
+A GIS-based Multi-Criteria Evaluation identifying optimal sites for onshore 
+wind farm development across a study area in coastal East Anglia. The region 
+was selected for its proximity to existing offshore wind infrastructure and 
+its position between London and Birmingham — two of the UK's highest energy 
+demand centres.
+
+**The analytical challenge** was that broad suitability across the study area 
+was high. It was necessary to filter to locations exceeding 80% suitability 
+before meaningful analysis between sites was possible. DBSCAN clustering 
+was then applied to spatially group high-suitability pixels into discrete 
+candidate zones, which were ranked by mean suitability score.
+
+**MCE Factor Weightings**
+
+| Factor | Weight | Rationale |
+|---|---|---|
+| Slope | 0.35 | Steep terrain significantly increases construction cost and turbine performance loss |
+| Power proximity | 0.30 | Grid connection is the dominant infrastructure cost for onshore wind |
+| River proximity | 0.15 | Flood risk and ecological constraints increase with proximity |
+| Wind speed | 0.10 | Spatial variation across the AOI was limited, reducing discriminatory power |
+| Road proximity | 0.10 | Access required but less cost-determining than grid connection |
+
+Areas of Outstanding Natural Beauty were treated as a **hard boolean constraint** 
+rather than a weighted factor — excluded entirely regardless of suitability score.
+
+**Key finding:** The study area supports both large-scale centralised development 
+and a distributed cluster approach. A distributed model offers grid resilience 
+benefits and reduced transmission losses, while a single large site benefits 
+from economies of scale in construction and maintenance. The analysis identifies 
+candidate zones for both strategies.
+
+**Methods:** MCE weighted overlay, boolean constraint masking, DBSCAN clustering, 
+kernel density estimation  
+**Tools:** Python (geopandas, rasterio, scikit-learn, matplotlib), QGIS
 
 <iframe 
   src="/assets/maps/norfolk.clusters.interactive.html" 
@@ -41,8 +71,5 @@ the most suitable areas for wind farms.
   height="500px"
   frameborder="0">
 </iframe>
-
-**Methods:** MCE weighted overlay, DBSCAN clustering, kernel density estimation  
-**Tools:** Python (geopandas, rasterio, scikit-learn, matplotlib), QGIS
 
 </details>
