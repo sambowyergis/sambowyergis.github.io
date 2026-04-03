@@ -77,8 +77,4 @@ kernel density estimation
 
 </details>
 
-- label: "GitHub Repo"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sambowyergis/Norfolk-Windfarm-MCE”
-
 **[View code on GitHub](https://github.com/sambowyergis/Norfolk-Windfarm-MCE){: target="_blank"}**
