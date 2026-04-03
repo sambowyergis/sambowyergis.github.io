@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 I'm a penultimate-year Geography BSc student at the University of St Andrews, 
-specialising in GIS and marine spatial planning. My work sits at the 
+specialising in GIS and marine spatial planning. My current work sits at the 
 intersection of spatial data analysis, offshore renewable energy, and 
 maritime operations. I'm actively looking to expand my portfolio and background
 by taking on projects in land based infrastructure or urban environments.
@@ -41,7 +41,6 @@ by taking on projects in land based infrastructure or urban environments.
   <div class="skill">
     <span class="skill-label">Remote Sensing</span>
     <div class="skill-bar"><div class="skill-fill" style="width: 65%"></div></div>
-  </div>
 
 </div>
 
