@@ -71,7 +71,8 @@ kernel density estimation
   src="/assets/maps/norfolk.clusters.interactive.html" 
   width="100%" 
   height="500px"
-  frameborder="0">
+  frameborder="0"
+  onload="this.contentWindow.dispatchEvent(new Event('resize'))">
 </iframe>
 
 </details>
