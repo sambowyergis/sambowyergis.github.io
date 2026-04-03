@@ -65,7 +65,7 @@ candidate zones for both strategies.
 kernel density estimation  
 **Tools:** Python (geopandas, rasterio, scikit-learn, matplotlib), QGIS
 
-![MCE Suitability Map with Cluster Boundaries](/assets/images/MCE_clusters.png)
+![MCE Suitability Map with Cluster Boundaries](/assets/images/imposed_mce.png)
 
 <iframe 
   src="/assets/maps/norfolk.clusters.interactive.html" 
