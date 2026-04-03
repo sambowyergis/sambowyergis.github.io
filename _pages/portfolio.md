@@ -75,6 +75,8 @@ kernel density estimation
   onload="this.contentWindow.dispatchEvent(new Event('resize'))">
 </iframe>
 
-</details>
+<a href="https://github.com/sambowyergis/REPO-NAME" target="_blank" class="btn btn--primary">
+  <i class="fab fa-github"></i> View Code on GitHub
+</a>
 
-**[View code on GitHub](https://github.com/sambowyergis/Norfolk-Windfarm-MCE){: target="_blank"}**
+</details>
