@@ -30,8 +30,7 @@ feature_row:
 
 {% include feature_row %}
 
-*Currently seeking GIS analyst roles, particularly in marine and offshore environments — 
-UK and Canada.*
+*Currently seeking GIS analyst roles, particularly in littoral and offshore environments — UK and Canada.*
 
 ---
 
