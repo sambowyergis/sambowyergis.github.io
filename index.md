@@ -9,7 +9,7 @@ header:
 excerpt: "Student GIS Analyst specialising in Spatial Analysis and Environmental 
 Planning."
 intro:
-  - excerpt: "Combining spatial data analysis with a practical maritime background to solve real-world planning problems."
+  - excerpt: "Combining spatial data analysis with a practical background to solve real-world planning problems."
 feature_row:
   - image_path: /assets/images/norfolk_thumb.png
     title: "Norfolk Wind Farm Suitability"
@@ -30,7 +30,7 @@ feature_row:
 
 {% include feature_row %}
 
-*Currently seeking GIS analyst roles, particularly in littoral and offshore environments — UK and Canada.*
+*Currently seeking GIS analyst roles, in land based and offshore environments — Worldwide with right to work in UK and Canada.*
 
 ---
 
