@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 I'm a penultimate-year Geography BSc student at the University of St Andrews, 
-specialising in GIS and marine spatial planning. My current work sits at the 
+specialising in GIS and spatial planning. My current work sits at the 
 intersection of spatial data analysis, offshore renewable energy, and 
 maritime operations. I'm actively looking to expand my portfolio and background
 by taking on projects in land based infrastructure or urban environments.
@@ -74,8 +74,8 @@ by taking on projects in land based infrastructure or urban environments.
 ## Maritime Background
 
 Alongside my academic work, I hold qualifications as a Senior sailing instructor 
-and Powerboat instructor, and serve in the Royal Navy Reserves. This 
-operational experience informs how I approach marine spatial data — 
+and Powerboat instructor, and serve as an Officer in the Royal Navy Reserves. 
+This operational experience informs how I approach marine spatial data — 
 particularly around vessel behaviour, navigational constraints, and the 
 practical realities that don't always show up in datasets.
 
