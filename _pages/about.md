@@ -71,15 +71,17 @@ by taking on projects in land based infrastructure or urban environments.
 }
 </style>
 
-## Maritime Background
+## Personal Background
 
-Alongside my academic work, I hold qualifications as a Senior sailing instructor 
-and Powerboat instructor, and serve as an Officer in the Royal Navy Reserves. 
-This operational experience informs how I approach marine spatial data — 
+Alongside my academic work, I hold am qualified and work as a Senior sailing instructor 
+and Powerboat instructor, work as a careers co-ordinator, and serve as an Officer in the
+Royal Navy Reserves. This operational experience informs how I approach marine spatial data — 
 particularly around vessel behaviour, navigational constraints, and the 
-practical realities that don't always show up in datasets.
+practical realities that don't always show up in datasets. I have also learned effective time
+management, leadership, teamwork and many other skills balancing employment with my studies both
+in term time as well as outside of the academic year.
 
 ## Currently
 
 Completing my dissertation and seeking GIS analyst roles in marine and 
-offshore environments. Open to opportunities in the UK and Canada.
+offshore environments. Open to opportunities worldwide with right to work in the UK and Canada.
