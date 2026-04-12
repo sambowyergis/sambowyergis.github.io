@@ -12,8 +12,6 @@ tags:
   - renewable energy
   - spatial planning
 header:
-  image: /assets/images/gherkin_ztv_header.jpg
-  teaser: /assets/images/gherkin_ztv_teaser.jpg
 excerpt: "Exploring Zone of Theoretical Visibility analysis in QGIS — a technique widely used in renewable energy planning — and applying it to one of London's most recognisable landmarks."
 ---
 
@@ -33,11 +31,11 @@ I chose 30 St Mary Axe — better known as the Gherkin — as my test case for a
 
 The analysis was conducted in QGIS 3.44 using a 1m resolution LiDAR-derived DSM. Processing steps were as follows:
 
-**Data preparation** — The DSM was clipped to a defined area of interest centred on the City of London. All layers were confirmed in EPSG:27700 (British National Grid) to ensure metric accuracy throughout.
+**Data preparation** — The DSM was clipped to a defined area of interest centred on the City of London. All layers were confirmed in EPSG:27700 (British National Grid) to ensure metric accuracy throughout. DSM resolution was adjusted to 5m.
 
-**Observer point** — A point feature was created at the Gherkin's apex location. Because the DSM already encodes the building's height as an absolute elevation value (~195m ASL), the observer height was set to 0m — adding the building height on top would have double-counted the ground elevation and produced an inflated, inaccurate result. This is a subtle but important distinction when working with surface models rather than terrain models.
+**Observer point** — A grid polygon was created at the Gherkin's location. Because the DSM already encodes the building's height as an absolute elevation value (~195m ASL), the observer height was set to 0m — adding the building height on top would have double-counted the ground elevation and produced an inflated, inaccurate result. This is an important distinction when working with surface models rather than terrain models.
 
-**Viewshed calculation** — The GDAL Viewshed tool was used with a target height of 1.7m (standing eye level) and an analysis radius of 10,000m. The binary output assigns a value of 1 to all cells with a theoretical line of sight to the observer point, and 0 to occluded areas.
+**Viewshed calculation** — The Viewshed tool was used with a target height of 1.6m (standing eye level) and an analysis radius of 20,000m. The binary output assigns a value of 1 to all cells with a theoretical line of sight to the observer point, and 0 to occluded areas.
 
 ## Result
 
@@ -55,7 +53,7 @@ The technique is also directly relevant to cumulative impact assessment, where t
 
 Working through this from scratch surfaced a number of methodological decisions that are easy to overlook when using a tool procedurally: the choice of surface model, the handling of observer height, the appropriate analysis radius, and the implications of raster resolution on both accuracy and processing time. These decisions matter significantly when outputs may be tested at Public Inquiry — a standard requirement for major renewable energy applications in Scotland.
 
-The analysis took approximately [X minutes] at 1m resolution over a 10km radius, highlighting the practical trade-off between resolution and processing efficiency that any GIS analyst working with large-area viewshed calculations will encounter.
+The analysis took approximately 35 minutes at 5m resolution over a 20km radius, highlighting the practical trade-off between resolution and processing efficiency that any GIS analyst working with large-area viewshed calculations will encounter.
 
 ---
 
