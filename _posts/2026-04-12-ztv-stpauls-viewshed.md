@@ -30,7 +30,7 @@ In the context of wind farm planning, ZTVs are produced to identify sensitive re
 
 I chose St Paul's Cathedral as my case study for reasons that go beyond its recognisability. At 111m to the cross, it sits considerably lower than many of the towers surrounding it in the City of London — yet it benefits from some of the most legally robust visibility protections of any structure in the UK. The London View Management Framework (LVMF) designates a series of protected viewing corridors from locations across London — Parliament Hill, Kenwood, Primrose Hill and others — within which development height is strictly controlled to preserve sightlines to the Cathedral. This makes it an ideal test case: unlike a tall building where you are simply mapping what can be seen, here there is a statutory framework to cross-reference against the output.
 
-A standard bare-earth Digital Terrain Model would produce an unrealistically open viewshed in this context, so I used a Digital Surface Model (DSM) incorporating building heights to ensure surrounding structures correctly occlude lines of sight — a more methodologically honest approach in a dense urban environment.
+A standard bare-earth Digital Terrain Model would produce an unrealistically open viewshed in this context, so I used a Digital Surface Model (DSM) incorporating building heights to ensure surrounding structures correctly occlude lines of sight.
 
 ## Methodology
 
@@ -38,7 +38,7 @@ The analysis was conducted in QGIS 3.44 using a LiDAR-derived DSM, resampled to 
 
 **Data preparation** — The DSM was clipped to a defined area of interest centred on the City of London. All layers were confirmed in EPSG:27700 (British National Grid) to ensure metric accuracy throughout. Prior to analysis, scattered NoData pixels identified within the DSM were interpolated using the Fill NoData tool to prevent erroneous occlusion along sightlines.
 
-**Observer point** — A point feature was placed at the St Paul's dome apex. Because the DSM already encodes the Cathedral's height as an absolute elevation value in metres ASL, the observer height was set to 0m — adding the structure height on top would have double-counted the ground elevation and produced an inflated result. This distinction between relative and absolute height handling is critical when working with surface models rather than terrain models.
+**Observer point** — A polygon was placed at the St Paul's dome apex. Because the DSM already encodes the Cathedral's height as an absolute elevation value in metres ASL, the observer height was set to 0m — adding the structure height on top would have double-counted the ground elevation and produced an inflated result. This distinction between relative and absolute height handling is critical when working with surface models rather than terrain models.
 
 **Viewshed calculation** — The Viewshed tool was run with a target height of 1.6m and an analysis radius of 20,000m. The binary output assigns a value of 1 to all cells with a theoretical line of sight to the observer point, and 0 to occluded areas.
 
@@ -64,5 +64,5 @@ The outputs for major renewable energy applications in Scotland may be tested at
 
 ---
 
-*Tools used: QGIS 3.44, GDAL Viewshed, Fill NoData, LiDAR DSM (resampled to 5m resolution)*  
+*Tools used: QGIS 3.44, Viewshed, Fill NoData, LiDAR DSM (resampled to 5m resolution)*  
 *All analysis conducted in EPSG:27700 (British National Grid)*
