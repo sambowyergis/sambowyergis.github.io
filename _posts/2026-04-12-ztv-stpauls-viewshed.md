@@ -13,8 +13,6 @@ tags:
   - spatial planning
   - London
 header:
-  image: /assets/images/stpauls_ztv_header.jpg
-  teaser: /assets/images/stpauls_ztv_teaser.jpg
 excerpt: "Exploring Zone of Theoretical Visibility analysis in QGIS — a technique widely used in renewable energy planning — and applying it to St Paul's Cathedral, cross-referencing the output against London's statutory protected viewing corridors."
 ---
 
