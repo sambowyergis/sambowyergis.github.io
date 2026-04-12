@@ -1,5 +1,5 @@
 ---
-title: "Mapping Visibility: Applying Zone of Theoretical Visibility Analysis to the Gherkin"
+title: "Mapping Visibility: Applying Zone of Theoretical Visibility Analysis to St Pauls Cathedral"
 date: 2026-04-12
 categories:
   - GIS
@@ -23,7 +23,7 @@ A ZTV is a map showing all locations from which a structure could theoretically 
 
 In the context of wind farm planning, ZTVs are produced to identify sensitive receptors — residential properties, roads, National Scenic Areas, and heritage sites — that fall within the theoretical visibility zone of proposed turbines. Cumulative ZTVs layer multiple proposed or consented sites to assess combined visual impact, which is increasingly significant in Scotland where offshore and onshore wind development is dense.
 
-## Why the Gherkin?
+## Why St Pauls Cathedral?
 
 I chose 30 St Mary Axe — better known as the Gherkin — as my test case for a few reasons. Its height (179.8m to the apex) and distinctive profile make it easy to verify results intuitively. Central London's dense urban fabric also provides an interesting challenge: a standard bare-earth Digital Terrain Model would produce an unrealistically open viewshed, so I used a Digital Surface Model (DSM) incorporating building heights to ensure surrounding structures correctly occlude lines of sight.
 
