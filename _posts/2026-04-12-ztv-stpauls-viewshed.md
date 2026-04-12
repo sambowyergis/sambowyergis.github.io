@@ -44,7 +44,7 @@ The analysis was conducted in QGIS 3.44 using a LiDAR-derived DSM, resampled to 
 
 ## Result
 
-{% include figure image_path="/assets/images/stpauls_ztv_result.jpg" alt="ZTV map showing theoretical visibility of St Paul's Cathedral across London" caption="Zone of Theoretical Visibility for St Paul's Cathedral, London. Red areas indicate theoretical visibility; grey areas are occluded by surrounding buildings or terrain." %}
+{% include figure image_path="/assets/images/stpauls_ztv_result.jpg" alt="ZTV map showing theoretical visibility of St Paul's Cathedral across London" caption="Zone of Theoretical Visibility for St Paul's Cathedral, London. White areas indicate theoretical visibility; Black areas are occluded by surrounding buildings or terrain." %}
 
 The output shows a visibility pattern consistent with the protected corridors designated under the LVMF. Sightlines extending northwest toward Parliament Hill, Kenwood and Primrose Hill — all statutory protected viewpoints — appear in the visible area of the output, broadly corroborating the planning framework's basis in actual topography and urban form. The dense building fabric of the City itself creates significant occlusion at short range, while the Thames corridor and lower-lying areas to the east and southeast show greater theoretical visibility.
 
