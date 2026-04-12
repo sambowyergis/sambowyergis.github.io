@@ -1,6 +1,8 @@
 ---
 title: "Mapping Visibility: Applying Zone of Theoretical Visibility Analysis to St Paul's Cathedral"
 date: 2026-04-12
+layout: single
+author_profile: true
 categories:
   - GIS
   - Spatial Analysis
