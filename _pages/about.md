@@ -73,7 +73,7 @@ by taking on projects in land based infrastructure or urban environments.
 
 ## Personal Background
 
-Alongside my academic work, I hold am qualified and work as a Senior sailing instructor 
+Alongside my academic work, I am qualified and work as a Senior sailing instructor 
 and Powerboat instructor, work as a careers co-ordinator, and serve as an Officer in the
 Royal Navy Reserves. This operational experience informs how I approach marine spatial data — 
 particularly around vessel behaviour, navigational constraints, and the 
