@@ -16,6 +16,8 @@ The analysis integrates vessel traffic data, fishing activity, navigational
 routes, and environmental constraints to produce a weighted suitability surface 
 identifying low-conflict development zones.
 
+![Map of research area with offshore wind farms overlayed](/assets/images/moray_map.png)
+
 **Methods:** MCE weighted overlay, DBSCAN clustering, kernel density estimation  
 **Tools:** Python (geopandas, rasterio, scikit-learn, matplotlib), QGIS
 
