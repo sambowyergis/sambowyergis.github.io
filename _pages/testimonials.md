@@ -13,8 +13,9 @@ author_profile: true
 </blockquote>
 
 <blockquote class="testimonial">
-  <p>"Another testimonial."</p>
-  <footer>— Name, Role, Organisation</footer>
+  <p>"Sam has become a crucial member of the team, both during paid working hours and in a voluntary capacity working with children and young adults at the club. He is an excellent instructor on and off the water - showing up early to help set up, staying late to clean up after sailors have left and taking a leading role to support younger instructors as they progress. In his capacity as a Senior Instructor and Powerboat Instructor, I trust him entirely to lead courses and manage other instructors working under his supervision.
+Personally, I have always found Sam very easy to work with and would recommend him without hesitation to any employer. "</p>
+  <footer>— Alastair Khaliq, Chief Instructor, Prestwick Sailing Club</footer>
 </blockquote>
 
 </div>
