@@ -8,8 +8,8 @@ author_profile: true
 <div class="testimonials">
 
 <blockquote class="testimonial">
-  <p>"Placeholder — placeholder."</p>
-  <footer>— Name, Role, Organisation</footer>
+  <p>"Sam demonstrated a strong aptitude for spatial data analysis and programming in GG3209, producing well-structured, methodologically sound work. He showed a strong understanding of the analytical decisions behind GIS workflows rather than simply applying tools, and approached complex problems with both technical rigour and geographic insight.."</p>
+  <footer>— Dr Fernando Benitez, Spacial Data Sciene Lecturer, University of St Andrews</footer>
 </blockquote>
 
 <blockquote class="testimonial">
