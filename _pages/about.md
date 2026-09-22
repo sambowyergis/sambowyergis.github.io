@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-I'm a penultimate-year Geography BSc student at the University of St Andrews, 
+I'm a final year Geography BSc student at the University of St Andrews, 
 specialising in GIS and spatial planning. My current work sits at the 
 intersection of spatial data analysis, offshore renewable energy, and 
 maritime operations. I'm actively looking to expand my portfolio and background
